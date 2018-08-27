@@ -1,0 +1,366 @@
+:root {
+    --mc-red: #ed5338;
+		--mc-green: #acb136;
+		--mc-yellow: #efab29;
+		--mc-blue: #45b7b2;
+}
+h1,h2,h3,ul,p {
+	color: white!important;
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2 {
+font-size: 4em!important;
+line-height: 1.0!important;
+}
+h1 span {
+	font-weight: 100;
+}
+h2 span {
+	font-weight: 100;
+}
+p, li {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2em;
+    font-weight: 100;
+    line-height: 1.6;
+}
+a {
+  font-weight: 500;
+}
+.modal-dialog {
+    max-width: 700px!important;
+    z-index: 99999!important;
+}
+.modal-header {
+  border: none;
+  color: white!important;
+}
+.modal-body p {
+  color: black!important;
+  font-family: Roboto;
+  font-weight: 100;
+}
+.modal-footer {
+  border: none;
+}
+.modal-footer a {
+  border: none;
+}
+.modal {
+    z-index: 99999!important;
+}
+.close {
+    float: right;
+    font-size: 2rem!important;
+    font-weight: 300!important;
+    line-height: 1;
+    color: var(--mc-red)!important;
+  }
+  .lgnopad {
+    padding-left: 0px;
+  }
+button.btn-secondary {
+  background: var(--mc-blue)!important;
+  color: white;
+  font-family: Roboto;
+  font-weight: 300;
+  border: none!important;
+}
+button.btn-primary {
+  background: var(--mc-red)!important;
+  color: white;
+  font-family: Roboto;
+  font-weight: 300;
+  border: none!important;
+}
+.footnote  {
+	font-size:.9em;
+	padding-top:2px;
+	margin-left: -5px;
+	text-align: right;
+}
+.mc-red {
+    background-color: var(--mc-red);
+}
+.mc-blue {
+    background: var(--mc-blue);
+}
+.mc-yellow {
+    background: var(--mc-yellow);
+}
+.mc-green {
+    background: var(--mc-green);
+}
+.topsec {
+            padding-bottom: 130px;
+          }
+}
+.boldlink {
+	font-weight: 700;
+}
+.thirty {
+    font-size: 18.5em!important;
+    font-weight: 300;
+    color: white;
+    text-align: right;
+    line-height: .8;
+    color: white;
+}
+.years {
+	font-size: 8em;
+	line-height: .9;
+	margin-bottom: 20px;
+}
+.years span {
+	font-weight: 100;
+}
+.headerlogo {
+	display: block;
+	margin: 0 auto;
+	max-width: 333px;
+}
+.mc-text-logo {
+	max-width:254px;
+}
+.section {
+	overflow: hidden!important;
+}
+.logoslot {
+	padding: 10em 0em!important;
+}
+.topline {
+	border-top:1px solid white;
+}
+.section .row {
+	padding-top:2em!important;
+	padding-right: 33px;
+}
+.headersocial {
+	float: right;
+	padding-top: 5px;
+}
+.headersocial li {
+	display: inline-block;
+	padding: 4px 8px;
+	font-size: 2em;
+
+}
+.headersocial li a {
+	color: white;
+	font-size: .8em;
+}
+.heresocial {
+  padding-left: 0px;
+}
+.heresocial li {
+	display: inline-block;
+	padding: 7px 12px;
+	font-size: 2em;
+
+}
+.heresocial li a {
+	color: white;
+}
+.fixed {
+  position: fixed!important;
+}
+.topbar {
+	z-index: 9999;
+	max-height: 72px;
+}
+.headersocial {
+	margin-bottom: 0px;
+}
+.mc-text-logo {
+	padding-top:12px;
+}
+.jobs h2 {
+    font-size: 2em!important;
+    min-height: 96px;
+}
+.apply {
+	background: white;
+	display: block;
+	text-align: center;
+	border: 1px solid white;
+  color: var(--mc-red);
+	font-size:1.5em;
+	margin-top:44px;
+}
+.apply:hover {
+	background: var(--mc-red);
+	border: 1px solid white;
+  color: #fff;
+	font-size:1.5em;
+	margin-top:44px;
+	text-decoration: none;
+}
+.jobs .col-md-3 div {
+	border: 1px solid white;
+	margin: 12px;
+	padding: 12px;
+  min-height: 236px;
+}
+.grow .topline {
+	margin-top: 10em!important;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: white!important;
+	}
+  #myVideo {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background-size: 100% 100%;
+      background-color: black;
+      background-image: /* our video */;
+      background-position: center center;
+      background-size: contain;
+      object-fit: cover;
+      z-index: 3;
+  }
+  .thirtyyears .layer {
+      position: absolute;
+      z-index: 4;
+      width: 100%;
+      left: 0;
+      top: 33%;
+      -webkit-transform: translate3d(0,0,0);
+      -ms-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+@media (max-width: 1530px) {
+  .thirtyyears .layer {
+      top: 23%;
+    }
+  }
+@media (max-width: 1024px) {
+		h1, h2 {
+	    font-size: 2.5em!important;
+	}
+	.thirty {
+	    font-size: 8.5em!important;
+	    font-weight: 100;
+	    color: white!important;
+	    text-align: right;
+	    line-height: .8;
+	}
+  .jobs h2 {
+    font-size: 1.5em!important;
+}
+.grow .topline {
+	margin-top: 7em!important;
+}
+.thirtyyears .layer {
+    top: 23%;
+  }
+}
+@media (max-width: 768px) {
+  .lgnopad {
+    padding-left: 15px;
+  }
+  .mobilepad {
+    padding-left: 15px;
+  }
+  .modal-dialog {
+      max-width: 700px!important;
+      margin: 2.75rem auto!important;
+      position: fixed!important;
+      z-index: 9999999999999!important;
+  }
+	.headerlogo {
+		display: block;
+		margin: 0 auto;
+		max-width: 222px;
+	}
+	p, li {
+	    font-weight: 300;
+	}
+	.topline {
+    border-top: 1px solid white;
+    margin-top: 65px;
+		margin-bottom: 65px;
+	}
+	.years {
+	    font-size: 3em!important;
+	    line-height: .9;
+	    margin-bottom: 20px;
+	}
+	h1, h2 {
+	    font-size: 3em!important;
+	}
+	.thirty {
+		font-size:8em!important;
+		font-weight:300;
+		color: white;
+		text-align:left;
+		line-height: .8;
+	}
+	.years {
+		font-size: 3em!important;
+		line-height: .9;
+		margin-bottom: 20px;
+	}
+	.headersocial li {
+	    display: inline-block;
+	    padding: 2px;
+	    font-size: 1.1em;
+	}
+	.headersocial li a {
+    color: white;
+    font-size: 1.1em;
+	}
+	.headersocial {
+	    width: 107px;
+	}
+	.headersocial {
+    float: right;
+    padding-top: 20px;
+  }
+  span.hidden-sm-down {
+    display: none;
+  }
+  .grow .topline {
+  	margin-top: 4em!important;
+  }
+  .thirtyyears .layer {
+      position: absolute;
+      z-index: 4;
+      width: 100%;
+      left: 0;
+      top: 15%;
+    }
+  #myVideo {
+    display: none;
+  }
+  .thirtyyears {
+  	background: url('img/video-still.png') right!important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover!important;
+  }
+}
+@media (max-width: 575px) {
+  .headersocial {
+	    width: 107px;
+			margin-top: -60px;
+	}
+  .grow .topline {
+  	margin-top: 2em!important;
+  }
+  #myVideo {
+    display: none;
+  }
+}
+.section .nopad {
+	padding: 0px!important;
+}
+.hereforyou a {
+	color: var(--mc-red);
+}
